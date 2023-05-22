@@ -14,4 +14,4 @@ def test_create_connection():
 
     assert db1.connection == "string-connection"
     assert db2.connection == "string-connection"
-    assert id(db2) == id(db2)
+    assert id(db1) == id(db2)
